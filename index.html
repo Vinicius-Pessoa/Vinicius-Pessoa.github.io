@@ -21,12 +21,6 @@
           <p>TS · PHP · Python · MySQL · APIs · Laravel · Express.js</p>
         </div>
       </div>
-
-      <nav>
-        <a href="#projetos">Projetos</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#contato">Contato</a>
-      </nav>
     </header>
 
     <main>
@@ -47,11 +41,6 @@
               <span class="chip">MySQL</span>
               <span class="chip">TDD</span>
             </div>
-          </div>
-
-          <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
-            <a class="social" href="#contato" title="Fale comigo">✉️ Contato</a>
-            <a class="social" href="#projetos" title="Projetos">💼 Projetos</a>
           </div>
         </aside>
 
@@ -117,8 +106,8 @@
                 <p class="small">Me mande um e‑mail ou clique no link e acesse meu linkedin.</p>
               </div>
               <div style="text-align:right">
-                <a class="btn primary" href="mailto:contato.vinicius.pessoa@gmail.com">contato.vinicius.pessoa@gmail.com</a>
-                <div style="margin-top:10%"><a class="btn" href="http://www.linkedin.com/in/vinicius-pessoa-pinto">LinkedIn</a></div>
+                <a id='openModal' class="btn primary" href="#">contato.vinicius.pessoa@gmail.com</a>
+                <div style="margin-top:10%"><a class="btn primary" href="http://www.linkedin.com/in/vinicius-pessoa-pinto">LinkedIn</a></div>
               </div>
             </div>
           </div>
@@ -130,6 +119,17 @@
       </div>
     </main>
   </div>
+
+    <!-- MODAL -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <h2>Contato copiado!</h2>
+                <p>O e-mail foi copiado para a área de transferência.</p>
+                <button class="btn secondary" id="closeModal">Fechar</button>
+            </div>
+        </div>
+    <!-- /MODAL -->
+  
   <script src="index.js"></script>
 </body>
 </html>
