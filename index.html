@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portifólio • Vinicius Pessoa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Changa+One&display=swap" rel="stylesheet">
+  <meta name="description" content="Portfólio de desenvolvedor full‑stack — JS/TS, PHP, Python, APIs, Laravel, Express.js" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/logo_vpp.png" type="image/x-icon">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo"><img id='img-logo' src="./images/logo_vpp.png" alt=""></div>
+        <div>
+          <h1>Vinicius Pessoa Pinto • Dev Full‑Stack</h1>
+          <p>TS · PHP · Python · MySQL · APIs · Laravel · Express.js</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="grid">
+        <aside class="aside">
+          <div class="photo"><img id="avatar" src="./images/myself.jpeg" alt=""></div>
+          <div class="name">Vinicius Pessoa Pinto</div>
+          <div class="role">Desenvolvedor Full‑Stack</div>
+          <div class="bio">Sou desenvolvedor full‑stack com foco em aplicações web escaláveis, APIs e automação. Trabalho com JavaScript/TypeScript, PHP (Laravel), Python e Node.js — transformando requisitos complexos em código limpo e bem testado.</div>
+
+          <div class="meta">
+            <p class="small">Localização <span style="float:right">Guarulhos => SP => Brasil</span></p>
+            <p class="small">Disponibilidade <span style="float:right">Contratações / Freelance</span></p>
+
+            <div style="margin-top:12px">
+              <span class="chip">APIs</span>
+              <span class="chip">POO</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">TDD</span>
+            </div>
+          </div>
+
+          <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+            <a class="social" href="#contato" title="Fale comigo">✉️ Contato</a>
+            <a class="social" href="#projetos" title="Projetos">💼 Projetos</a>
+          </div>
+        </aside>
+
+        <section class="content">
+          <div class="section" id="sobre">
+            <h2>Sobre mim</h2>
+            <p style="color:var(--muted);margin-top:10px">Desenvolvedor Full-Stack fluente em inglês. Crio aplicações web, APIs e integrações. Se você precisa de sistemas internos, automações, microsserviços ou landing pages dinâmicas, eu faço do planejamento à entrega.</p>
+          </div>
+
+          <div class="section" id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="skills" style="margin-top:12px">
+              <div class="skill">JavaScript</div>
+              <div class="skill">TypeScript</div>
+              <div class="skill">Node.js</div>
+              <div class="skill">Express.js</div>
+              <div class="skill">PHP</div>
+              <div class="skill">Laravel</div>
+              <div class="skill">Python</div>
+              <div class="skill">APIs REST</div>
+              <div class="skill">MySQL</div>
+              <div class="skill">Testing</div>
+              <div class="skill">Inglês fluente</div>
+            </div>
+          </div>
+
+          <div class="section" id="projetos">
+            <h2>Algumas experências</h2>
+            <div class="projects" style="margin-top:12px">
+
+              <article class="card">
+                <h3>API de Gestão</h3>
+                <p>API REST em Node.js/Express.js com autenticação JWT, integração com MySQL e testes automatizados. Design pensando em segurança e observabilidade.</p>
+                <div class="tags"><span class="t">Node</span><span class="t">Express.js</span><span class="t">MySQL</span><span class="t">JWT</span></div>
+              </article>
+
+              <article class="card">
+                <h3>Plataforma ERP (Laravel)</h3>
+                <p>Sistema de módulos para gestão de estoque e faturamento, desenvolvido em Laravel com arquitetura limpa e jobs para processamento assíncrono.</p>
+                <div class="tags"><span class="t">PHP</span><span class="t">Laravel</span><span class="t">Queues</span></div>
+              </article>
+
+              <article class="card">
+                <h3>Automação / ETL (Python)</h3>
+                <p>Scripts Python para extração, transformação e carga de dados, integrando APIs externas e bancos de dados.</p>
+                <div class="tags"><span class="t">Python</span><span class="t">Pandas</span><span class="t">Cron</span></div>
+              </article>
+
+              <article class="card">
+                <h3>Landing Pages & Microsites</h3>
+                <p>Landing pages responsivas com foco em conversão, performance e SEO. Integração com formulários e serviços de e-mail.</p>
+                <div class="tags"><span class="t">HTML</span><span class="t">CSS</span><span class="t">SEO</span></div>
+              </article>
+
+            </div>
+          </div>
+
+          <div class="section" id="contato">
+            <h2>Contato</h2>
+            <div class="contact-card" style="margin-top:12px">
+              <div class="info">
+                <p>Vamos conversar? </p>
+                <p class="small">Me mande um e‑mail ou clique no link e acesse meu linkedin.</p>
+              </div>
+              <div style="text-align:right">
+                <a class="btn primary" href="mailto:contato.vinicius.pessoa@gmail.com">contato.vinicius.pessoa@gmail.com</a>
+                <div style="margin-top:10%"><a class="btn" href="http://www.linkedin.com/in/vinicius-pessoa-pinto">LinkedIn</a></div>
+              </div>
+            </div>
+          </div>
+
+          <footer>
+            © <span id="ano"></span> • Vinicius Pessoa Pinto — Full‑Stack Developer
+          </footer>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
