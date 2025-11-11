@@ -6,7 +6,7 @@
       --accent:#8b5cf6; /* purple */
       --muted:rgba(255,255,255,0.6);
       --glow: 0 6px 30px rgba(110,231,255,0.06), 0 0 30px rgba(139,92,246,0.06);
-      --maxw:1100px;
+      --maxw:90%;
     }
 
     *{box-sizing:border-box}
@@ -124,4 +124,5 @@
         width: 100%;
         margin-top: 20%;
         filter: contrast(130%)saturate(140%)brightness(95%);
+
     }
